@@ -1,0 +1,42 @@
+.headingContainer{
+    display:flex;
+    
+}
+
+.heading{
+    padding:5px;
+    border:1px solid black;
+    cursor:pointer;
+    
+}
+.heading:hover{
+    background-color: greenyellow;
+}
+
+.tabBody{
+    border:1px solid black;
+    height:400px;
+    /* display: flex; */
+    padding: 5px;
+}
+
+.settingsBody li{
+    list-style-type: none;
+}
+.interestBody li{
+    list-style-type: none;
+}
+.profileForm li{
+    list-style-type: none;
+}
+
+.handleButtons{
+    display:flex;
+    justify-content: center;
+}
+
+.errors{
+    color: red;
+    display:block;
+    font-size: small;
+}
